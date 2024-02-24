@@ -1,0 +1,7 @@
+from datetime import datetime, timedelta
+
+current_date = datetime.now()
+print("Current Date and Time:", current_date)
+
+new_date = current_date + timedelta(days=7)
+print("Date after 7 days:", new_date)
